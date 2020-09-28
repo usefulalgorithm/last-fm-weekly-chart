@@ -1,0 +1,17 @@
+[package]
+name = "last-fm-weekly-charts"
+version = "0.1.0"
+authors = ["Tsung-Ju Lii <usefulalgorithm@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.10.7", features = ["json"] }
+serde = { version = "1.0.115", features = ["derive"] }
+tokio = { version = "0.2.22", features = ["full"] }
+futures = "0.3.5"
+image = "0.23.10"
+bytes = "0.5.6"
+imageproc = "0.21.0"
+rusttype = "0.9.2"
